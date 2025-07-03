@@ -1,0 +1,128 @@
+.search-bar {
+  font-size: 20px;
+  margin-left: 12px;
+}
+
+.header {
+  z-index: 100;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-color: rgb(189, 188, 188);
+  border-bottom-style: solid;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.microphone-container {
+  border-radius: 100px;
+  width: 30px;
+  background-color: gray;
+  height: 30px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  margin-left: 10px;
+  border: 0;
+}
+
+.create-container {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: gray;
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+  border: 0;
+  width: 120px;
+}
+
+.hamburger-menu {
+  height: 20px;
+  margin: 0 20px;
+}
+
+.search-container {
+  height: 27px;
+  width: 50px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.search-bar {
+  flex: 1;
+  font-family: roboto;
+  padding-left: 12px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  border-width: 1px;
+  border-style: solid;
+  width: 0;
+}
+
+.search-bar::placeholder {
+  font-size: 16px;
+}
+
+.bell {
+  width: 35px;
+  margin: 0 20px;
+  background-color: transparent;
+  border: 0;
+}
+
+.profile-container {
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  pointer-events: 0;
+}
+
+.notifications-count {
+  position: absolute;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  top: 0;
+  right: 20px;
+  font-size: 12px;
+  font-family: roboto;
+  padding: 2px 6px;
+
+}
+
+.notifications-icon-container {
+  position: relative;
+}
